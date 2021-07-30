@@ -727,9 +727,7 @@ footer .container .row .course ul > li > a:hover {
 }
 
 footer .container .row .news .item {
-  margin: 5px 0;
-  padding: 5px 0;
-  border-top: 1px solid white;
+  margin: 10px 0;
 }
 
 footer .container .row .news .item:hover {
@@ -741,7 +739,6 @@ footer .container .row .news .item .imgbx img {
   height: 50px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 5px;
 }
 
 footer .container .row .news .item .content {

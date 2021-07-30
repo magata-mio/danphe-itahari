@@ -1,0 +1,53 @@
+section.about {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.562)), to(rgba(0, 0, 0, 0.274))), url(/image/about.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.274)), url(/image/about.jpg) no-repeat;
+  background-size: cover;
+}
+
+section.team .container .list .item .card img {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+  section.team .container .list .item .card img {
+    height: 250px;
+  }
+}
+
+section.team .container .list .item .card .card-body p {
+  font-size: 14px;
+}
+
+section.team .container .list .item .card .card-body .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+section.team .container .list .item .card .card-body .icon li {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #1a1919;
+  margin-right: 3px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 3px;
+}
+
+section.team .container .list .item .card .card-body .icon li:hover {
+  background-color: #fff;
+}
+
+section.team .container .list .item .card .card-body .icon li:hover a {
+  color: black;
+}
+
+section.team .container .list .item .card .card-body .icon li a {
+  color: white;
+}

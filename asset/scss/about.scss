@@ -1,0 +1,54 @@
+@import '_var';
+section.about{
+    background: linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.274)), url(/image/about.jpg) no-repeat;
+    background-size: cover;
+}
+section.team{
+    .container{
+        .list{
+            .item{
+                .card{
+                    img{
+                        height: 150px;
+                        object-fit: cover;
+                    }
+                    @media screen and (max-width:500px){
+                        img{
+                            height: 250px;
+                        }
+                    }
+                    .card-body{
+                        p{
+                            font-size: 14px;
+                        }
+                        .icon{
+                            display: flex;
+                            list-style: none;
+                            padding: 0;
+                            li{
+                                width: 30px;
+                                height: 30px;
+                                text-align: center;
+                                line-height: 30px;
+                                background: rgb(26, 25, 25);
+                                margin-right: 3px;
+                                transition: 0.5s;
+                                border-radius: 3px;
+                                &:hover{
+                                    background-color: #fff;
+                                    a{
+                                        color: black;
+                                    }
+                                }
+                                a{
+                                    color: white;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
