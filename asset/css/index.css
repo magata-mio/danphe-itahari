@@ -1,3 +1,21 @@
+.f-s1 {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.f-s2 {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.f-s3 {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
 .top {
   background-color: #1F2B33;
 }

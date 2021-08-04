@@ -1,0 +1,43 @@
+.f-s1 {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.f-s2 {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.f-s3 {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+section.banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(/image/contact_us.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/image/contact_us.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.contact .container .social ul {
+  margin: 5px 0;
+}
+
+section.contact .container .social ul li {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+}
+
+section.contact .container .social ul li a {
+  color: white;
+}
