@@ -90,7 +90,14 @@
     .container {
         .navbar-brand {
             img {
-                width: 80px;
+                width: 120px;
+                height: 50px;
+                object-fit: cover;
+            }
+            @media screen and (max-width:768px){
+                img{
+                    width: 150px;
+                }
             }
         }
 
