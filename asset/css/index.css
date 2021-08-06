@@ -44,7 +44,10 @@
 }
 
 .info .container .row .logo img {
-  width: 120px;
+  width: 180px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .info .container .row .detail div {

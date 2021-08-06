@@ -22,8 +22,15 @@ section.about {
   background-size: cover;
 }
 
+section.team .container .list .item .card {
+  border: none;
+  -webkit-box-shadow: 0px 0px 2px 1px green;
+          box-shadow: 0px 0px 2px 1px green;
+}
+
 section.team .container .list .item .card img {
-  height: 150px;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -32,6 +39,15 @@ section.team .container .list .item .card img {
   section.team .container .list .item .card img {
     height: 250px;
   }
+}
+
+section.team .container .list .item .card .card-body {
+  background: rgba(0, 0, 0, 0);
+}
+
+section.team .container .list .item .card .card-body h5 {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 section.team .container .list .item .card .card-body p {
@@ -44,6 +60,7 @@ section.team .container .list .item .card .card-body .icon {
   display: flex;
   list-style: none;
   padding: 0;
+  margin-top: 5px;
 }
 
 section.team .container .list .item .card .card-body .icon li {
@@ -55,15 +72,12 @@ section.team .container .list .item .card .card-body .icon li {
   margin-right: 3px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border-radius: 3px;
+  border-radius: 15px;
+  font-size: 14px;
 }
 
 section.team .container .list .item .card .card-body .icon li:hover {
-  background-color: #fff;
-}
-
-section.team .container .list .item .card .card-body .icon li:hover a {
-  color: black;
+  background-color: #0c8d21;
 }
 
 section.team .container .list .item .card .card-body .icon li a {

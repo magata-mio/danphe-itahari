@@ -8,8 +8,11 @@ section.team{
         .list{
             .item{
                 .card{
+                    border: none;
+                    box-shadow: 0px 0px 2px 1px green;
                     img{
-                        height: 150px;
+                        height: 200px;
+                        border-radius: 5px 5px 0 0;
                         object-fit: cover;
                     }
                     @media screen and (max-width:500px){
@@ -18,6 +21,11 @@ section.team{
                         }
                     }
                     .card-body{
+                        background: rgba(0, 0, 0, 0);
+                        h5{
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
                         p{
                             font-size: 14px;
                         }
@@ -25,6 +33,7 @@ section.team{
                             display: flex;
                             list-style: none;
                             padding: 0;
+                            margin-top: 5px;
                             li{
                                 width: 30px;
                                 height: 30px;
@@ -33,12 +42,11 @@ section.team{
                                 background: rgb(26, 25, 25);
                                 margin-right: 3px;
                                 transition: 0.5s;
-                                border-radius: 3px;
+                                border-radius: 15px;
+                                font-size: 14px;
                                 &:hover{
-                                    background-color: #fff;
-                                    a{
-                                        color: black;
-                                    }
+                                    background-color: rgb(12, 141, 33);
+                                    
                                 }
                                 a{
                                     color: white;
