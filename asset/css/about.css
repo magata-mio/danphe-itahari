@@ -31,6 +31,11 @@ section.about {
 
 section.team .container .list .item .card {
   border: none;
+  -webkit-box-shadow: 0px 0px 2px 1px #686968;
+          box-shadow: 0px 0px 2px 1px #686968;
+}
+
+section.team .container .list .item .card:hover {
   -webkit-box-shadow: 0px 0px 2px 1px green;
           box-shadow: 0px 0px 2px 1px green;
 }

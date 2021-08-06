@@ -9,7 +9,11 @@ section.team{
             .item{
                 .card{
                     border: none;
-                    box-shadow: 0px 0px 2px 1px green;
+                    box-shadow: 0px 0px 2px 1px rgb(104, 105, 104);
+                    &:hover{
+                        box-shadow: 0px 0px 2px 1px green;
+                    }
+                    
                     img{
                         height: 200px;
                         border-radius: 5px 5px 0 0;
