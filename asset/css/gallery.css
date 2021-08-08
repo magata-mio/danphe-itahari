@@ -74,6 +74,8 @@ section.gallery .container .image-list .image .img, section.gallery .container .
 
 @media screen and (max-width: 375px) {
   section.gallery .container .image-list {
+    -webkit-column-count: 2;
+            column-count: 2;
     padding: 0 5px;
   }
 }
