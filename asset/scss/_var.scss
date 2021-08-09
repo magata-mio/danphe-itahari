@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap');
 body{
-    font-family: 'Poppins',
+    font-family: 'Raleway',
     sans-serif;
     font-smooth: antialiased;
     font-weight: 500;
+    p{
+        color: #424242;
+        line-height: 28px;
+        font-size: 14px;
+    }
 }
 $primary:#45ACB0;
 $secondary:#2596BE;

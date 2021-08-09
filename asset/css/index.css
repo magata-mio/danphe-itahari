@@ -1,8 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap");
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-smooth: antialiased;
   font-weight: 500;
+}
+
+body p {
+  color: #424242;
+  line-height: 28px;
+  font-size: 14px;
 }
 
 .f-s1 {
@@ -79,13 +85,14 @@ body {
 .info .container .row .detail div .call-us,
 .info .container .row .detail div .visit-us,
 .info .container .row .detail div .email-us {
-  line-height: 16px;
+  line-height: 14px;
 }
 
 .info .container .row .detail div .call-us p,
 .info .container .row .detail div .visit-us p,
 .info .container .row .detail div .email-us p {
   font-weight: 700;
+  line-height: 14px;
 }
 
 .info .container .row .detail div .call-us a,
